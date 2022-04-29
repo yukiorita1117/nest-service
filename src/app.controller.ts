@@ -1,5 +1,4 @@
 // memo: コントローラ: どんなurlが来たらどんなresponseをを返すかについて記述する
-
 import { Controller, Get } from '@nestjs/common';
 import { AppService } from './app.service';
 
