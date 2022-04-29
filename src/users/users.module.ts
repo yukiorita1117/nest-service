@@ -5,5 +5,7 @@ import { UsersService } from './users.service';
 @Module({
   controllers: [UsersController],
   providers: [UsersService],
+  // exportsできるものは providersに書いているものだけ。
+  exports: [UsersService],
 })
 export class UsersModule {}
